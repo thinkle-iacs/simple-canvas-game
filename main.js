@@ -1,3 +1,16 @@
+/* Main game file: main.js */
+/* Game: [Your Game Name Here] */
+/* Authors: [Your Name(s) Here] */
+/* Description: [Short description of your game here] */
+/* Citations: [List any resources, libraries, tutorials, etc you used here] 
+/* Note: If you use significant AI help you should cite that here as well */
+/* including summaries of prompts and/or interactions you had with the AI */
+/* In addition, of course, any AI-generated code should be clearly maked */
+/* in comments throughout the code, though of course when using e.g. CoPilot */
+/* auto-complete it maye be impractical to mark every line, which is why you */
+/* should also include a summary here */
+
+
 import "./style.css";
 
 import { GameInterface } from 'simple-canvas-library';

@@ -101,6 +101,27 @@ Your project will be assessed based on the following criteria:
    - Proficient (3): Code is organized into functions and uses consistent indentation and spacing.
    - Mastery (4): Code includes extensive comments that show understanding of code and suggest student followed a "comment first" approach to writing (i.e. you first wrote comments laying out your plan, then wrote the code).
 
+## A Note on AI
+
+Note: I have provided Copilot with instructions for helping you on this project. Because Copilot here knows all about the project and library we are using, I recommend using Copilot _within your editor_ and _NOT_ using outside tools like ChatGPT to help you with this project. Using ChatGPT or similar tools may lead to confusion because they don't have the context of our specific library and project setup.
+
+Whenever you use AI, you need to cite your sources. If you use Copilot to help you write code, please add a comment in your code like this:
+
+```javascript
+// Code generated with the help of GitHub Copilot
+// in response to prompt: "...summary of prompt..."
+// Begin generated code
+
+// End generated code
+```
+
+When you use Copilot auto-complete, it is less obvious that you are using AI assistance, so please make sure to
+add a general note at the top of your `main.js` file where you acknowledge how you used Copilot in the project.
+
+I _recommend_ that you follow a "comment first" approach to writing your code. If before each line of code you
+write a comment describing what you want to do, then you can use Copilot to help you fill in the code for each comment. This way, you are in control of the logic and structure of the code, and Copilot can help you with fussy
+details like how you draw a circle on the canvas or other API details.
+
 ## Running project
 
 To run project, use
