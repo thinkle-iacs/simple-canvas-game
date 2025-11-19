@@ -39,7 +39,6 @@ const game = new GameCanvas("mycanvasid");
 ```typescript
 // Add a custom drawing function (called every frame)
 gi.addDrawing(({ ctx, elapsed }) => {
-  ctx.clearRect(0, 0, gi.getSize().width, gi.getSize().height);
   ctx.fillStyle = "blue";
   ctx.fillRect(100 + Math.sin(elapsed / 500) * 50, 100, 100, 100);
 });
@@ -125,3 +124,7 @@ gi.stop(); // Stop completely
 ---
 
 For more details, see the source files and JSDoc comments in `src/`.
+
+## Helping Student with Assignment
+
+See [README](../README.md) for guidelines the student is following.
